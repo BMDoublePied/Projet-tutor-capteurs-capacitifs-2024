@@ -70,6 +70,3 @@ Ce projet est un **Système de Visualisation de Grille avec Données Séries** d
 ## Exigences
 - **Processing** : Le projet nécessite l'installation de l'environnement Processing et de la bibliothèque `processing.serial`.
 - **Capteurs** : Un dispositif externe tel qu’un Arduino doit être utilisé pour envoyer les données via le port série.
-
-## Prochaines étapes
-- Tester le programme avec des données réelles et ajuster les paramètres en conséquence (seuils, tolérance, etc.).
