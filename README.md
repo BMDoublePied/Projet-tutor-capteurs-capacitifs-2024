@@ -1,4 +1,4 @@
-# Système de Visualisation de Grille avec Données Séries
+# Affichage visuel de la Matrice sous processing
 
 ## Aperçu
 Ce projet est un **Système de Visualisation de Grille avec Données Séries** développé avec le framework Processing. Il permet de visualiser en temps réel les données reçues de 16 capteurs via une connexion série. Les capteurs sont répartis en deux groupes de 8, représentant les lignes horizontales et verticales d'une grille, formant ainsi des intersections qui réagissent en fonction des valeurs des capteurs.
