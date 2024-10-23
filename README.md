@@ -1,4 +1,4 @@
-# Documentation du projet de simulation de particules
+# Jeu interactif sous processing
 
 ## Description
 
