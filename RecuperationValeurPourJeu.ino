@@ -1,13 +1,13 @@
 #include <CapacitiveSensor.h>
 
-CapacitiveSensor cs_3_2 = CapacitiveSensor(3, 2);   // 10M ohm entre les broches 3 et 2
-CapacitiveSensor cs_3_4 = CapacitiveSensor(3, 4);   // 10M ohm entre les broches 3 et 4
-CapacitiveSensor cs_6_5 = CapacitiveSensor(6, 5); // 10M ohm entre les broches 6 et 5
-CapacitiveSensor cs_6_7 = CapacitiveSensor(6, 7); // 10M ohm entre les broches 6 et 7
-CapacitiveSensor cs_9_8 = CapacitiveSensor(9, 8); // 10M ohm entre les broches 9 et 8
-CapacitiveSensor cs_9_10 = CapacitiveSensor(9, 10); // 10M ohm entre les broches 9 et 10
-CapacitiveSensor cs_12_11 = CapacitiveSensor(12, 11); // 10M ohm entre les broches 12 et 11
-CapacitiveSensor cs_12_13 = CapacitiveSensor(12, 13); // 10M ohm entre les broches 12 et 13
+CapacitiveSensor cs_3_2 = CapacitiveSensor(3, 2);   // 1M ohm entre les broches 3 et 2
+CapacitiveSensor cs_3_4 = CapacitiveSensor(3, 4);   // 1M ohm entre les broches 3 et 4
+CapacitiveSensor cs_6_5 = CapacitiveSensor(6, 5); // 1M ohm entre les broches 6 et 5
+CapacitiveSensor cs_6_7 = CapacitiveSensor(6, 7); // 1M ohm entre les broches 6 et 7
+CapacitiveSensor cs_9_8 = CapacitiveSensor(9, 8); // 1M ohm entre les broches 9 et 8
+CapacitiveSensor cs_9_10 = CapacitiveSensor(9, 10); // 1M ohm entre les broches 9 et 10
+CapacitiveSensor cs_12_11 = CapacitiveSensor(12, 11); // 1M ohm entre les broches 12 et 11
+CapacitiveSensor cs_12_13 = CapacitiveSensor(12, 13); // 1M ohm entre les broches 12 et 13
 
 void setup() {
     Serial.begin(9600);
