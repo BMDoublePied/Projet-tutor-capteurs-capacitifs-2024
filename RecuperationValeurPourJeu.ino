@@ -1,24 +1,25 @@
 #include <CapacitiveSensor.h>
 
-CapacitiveSensor cs_3_2 = CapacitiveSensor(3, 2);   // 10M ohm entre les broches 4 et 2
-CapacitiveSensor cs_3_4 = CapacitiveSensor(3, 4);   // 10M ohm entre les broches 4 et 6
-CapacitiveSensor cs_6_5 = CapacitiveSensor(6, 5); // 10M ohm entre les broches 10 et 8
-CapacitiveSensor cs_6_7 = CapacitiveSensor(6, 7); // 10M ohm entre les broches 10 et 12
-CapacitiveSensor cs_9_8 = CapacitiveSensor(9, 8); // 10M ohm entre les broches 10 et 12
-CapacitiveSensor cs_9_10 = CapacitiveSensor(9, 10); // 10M ohm entre les broches 10 et 12
-CapacitiveSensor cs_12_11 = CapacitiveSensor(12, 11); // 10M ohm entre les broches 10 et 12
-CapacitiveSensor cs_12_13 = CapacitiveSensor(12, 13); // 10M ohm entre les broches 10 et 12
+CapacitiveSensor cs_3_2 = CapacitiveSensor(3, 2);   // 10M ohm entre les broches 3 et 2
+CapacitiveSensor cs_3_4 = CapacitiveSensor(3, 4);   // 10M ohm entre les broches 3 et 4
+CapacitiveSensor cs_6_5 = CapacitiveSensor(6, 5); // 10M ohm entre les broches 6 et 5
+CapacitiveSensor cs_6_7 = CapacitiveSensor(6, 7); // 10M ohm entre les broches 6 et 7
+CapacitiveSensor cs_9_8 = CapacitiveSensor(9, 8); // 10M ohm entre les broches 9 et 8
+CapacitiveSensor cs_9_10 = CapacitiveSensor(9, 10); // 10M ohm entre les broches 9 et 10
+CapacitiveSensor cs_12_11 = CapacitiveSensor(12, 11); // 10M ohm entre les broches 12 et 11
+CapacitiveSensor cs_12_13 = CapacitiveSensor(12, 13); // 10M ohm entre les broches 12 et 13
 
 void setup() {
     Serial.begin(9600);
-    cs_3_2.set_CS_AutocaL_Millis(0xFFFFFFFF);  // Désactiver l'autocalibration
-    cs_3_4.set_CS_AutocaL_Millis(0xFFFFFFFF);  // Désactiver l'autocalibration
-    cs_6_5.set_CS_AutocaL_Millis(0xFFFFFFFF);  // Désactiver l'autocalibration
-    cs_6_7.set_CS_AutocaL_Millis(0xFFFFFFFF);  // Désactiver l'autocalibration
-    cs_9_8.set_CS_AutocaL_Millis(0xFFFFFFFF);  // Désactiver l'autocalibration
-    cs_9_10.set_CS_AutocaL_Millis(0xFFFFFFFF);  // Désactiver l'autocalibration
-    cs_12_11.set_CS_AutocaL_Millis(0xFFFFFFFF);  // Désactiver l'autocalibration
-    cs_12_13.set_CS_AutocaL_Millis(0xFFFFFFFF);  // Désactiver l'autocalibration
+      // Désactiver l'autocalibration
+    cs_3_2.set_CS_AutocaL_Millis(0xFFFFFFFF);
+    cs_3_4.set_CS_AutocaL_Millis(0xFFFFFFFF);
+    cs_6_5.set_CS_AutocaL_Millis(0xFFFFFFFF);
+    cs_6_7.set_CS_AutocaL_Millis(0xFFFFFFFF);
+    cs_9_8.set_CS_AutocaL_Millis(0xFFFFFFFF);
+    cs_9_10.set_CS_AutocaL_Millis(0xFFFFFFFF);
+    cs_12_11.set_CS_AutocaL_Millis(0xFFFFFFFF);
+    cs_12_13.set_CS_AutocaL_Millis(0xFFFFFFFF);
 }
 
 void loop() {
